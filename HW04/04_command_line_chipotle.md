@@ -16,20 +16,10 @@
       Nectar, and Chips and Green Salsa. Further, each item can be customized
       in the description field. For example, one can order different flavors
       of Izze such as Clementine as in the item in row 2.
-
 ```bash
 head chipotle.tsv
 tail chipotle.tsv
 ```
-
-```python
-import pandas as pd
-
-chip = pd.read_table('chipotle.tsv', sep='\t')
-chip.head()
-chip.tail()
-```
-
 
 2. How many orders do there appear to be?
     - Assuming that order_id is unique for each order, there appears to be
@@ -38,11 +28,6 @@ chip.tail()
 ```bash
 tail chipotle.tsv
 ```
-
-```python
-chip['order_id'].max()
-```
-
 3. How many lines are in this file?
     - There are 4,622 rows in this file or 4,623 lines if you include the
       header.
