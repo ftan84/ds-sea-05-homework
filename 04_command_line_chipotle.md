@@ -9,6 +9,16 @@
 #### Command Line Tasks
 
 1. Look at the head and the tail of **chipotle.tsv** in the **data** subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.)
+
+    - My answer here
+
+```python
+import pandas as pd
+
+chip = pd.read_table('chipotle.tsv', sep='\t')
+chip.head()
+```
+
 2. How many orders do there appear to be?
 3. How many lines are in this file?
 4. Which burrito is more popular, steak or chicken?
