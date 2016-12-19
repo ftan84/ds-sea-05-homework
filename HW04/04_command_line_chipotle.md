@@ -12,12 +12,12 @@
 
     - My answer here
 
-    - ```python
-    import pandas as pd
+```python
+import pandas as pd
 
-    chip = pd.read_table('chipotle.tsv', sep='\t')
-    chip.head()
-    ```
+chip = pd.read_table('chipotle.tsv', sep='\t')
+chip.head()
+```
 
 2. How many orders do there appear to be?
 3. How many lines are in this file?
