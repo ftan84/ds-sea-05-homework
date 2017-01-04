@@ -46,4 +46,4 @@ Using these two endpoints, the application collects data in two steps:
     - Once zpid's are known, make calls on collected zpid's to collect property details as described above.
     
 I have close to 7000 zpid's collected with about 2000 populated with property details thus far. Considering the API rate limit,
-I think 2000 observations will suffice for the purposes of this project.
+I think 2000 observations will suffice for the purposes of this project. The data is currently stored in the form of a SQLite file.
