@@ -1,3 +1,4 @@
+zpid,street,city,state,zip,FIPScounty,useCode,taxAssessmentYear,taxAssessment,yearBuilt,lotSizeSqFt,finishedSqFt,bathrooms,bedrooms,lastSoldDate,lastSoldPrice,zestimate,zestimateLastUpdated,zestimateValueChange,zestimateValueLow,zestimateValueHigh,zestimatePercentile,region
 38447172,"18314 48th Ave W",Lynnwood,WA,98037,53061,SingleFamily,2015,222100.0,1967,9147,1223,2.0,3,11/07/2016,315000,326746,12/30/2016,-5752,310409,343083,0,Lynnwood
 38448108,"19011 Grannis Rd",Bothell,WA,98012,53061,SingleFamily,2015,233400.0,1969,15246,1296,1.0,3,10/06/2016,353000,368478,12/30/2016,-2945,350054,386902,0,Bothell
 38448131,"2625 189th St SE",Bothell,WA,98012,53061,SingleFamily,2015,486300.0,1999,13068,3226,3.0,2,02/01/2016,405000,673774,12/30/2016,-360,640085,707463,0,Bothell
